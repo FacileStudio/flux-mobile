@@ -15,6 +15,15 @@ This repo is not a fork. It is a small overlay that the LineageOS build picks up
 
 LineageOS itself stays untouched, so an update is `repo sync` with nothing to merge.
 
+## Try it today
+
+There is no Flux Mobile image yet. On a Galaxy A51 you can already run a preview: a
+Google-free Android 16 system with the Flux home screen and the Facile apps. Follow
+[docs/galaxy-a51.md](docs/galaxy-a51.md).
+
+On any other Android phone, install the Flux home screen from
+https://github.com/FacileStudio/flux-launcher/releases/latest/download/flux-launcher.apk.
+
 ## Build
 
 You need a Linux machine with 64 GB of RAM and 400 GB of free disk, and the
@@ -36,7 +45,7 @@ flashable zip lands in `out/target/product/<device>/`.
 | Tier | Meaning | Devices |
 |---|---|---|
 | Official | Built and tested every month | none yet |
-| Community | Built from community device trees, no promise | Galaxy A51 (planned) |
+| Community | Built from community device trees, no promise | none yet |
 | Legacy | No longer updated | none |
 
 ## Not done yet
