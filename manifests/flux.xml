@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="facile" fetch="https://github.com/FacileStudio" />
+    <remote name="lineageos4microg" fetch="https://github.com/lineageos4microg" />
+
+    <project name="flux-mobile" path="vendor/flux" remote="facile" revision="main">
+        <linkfile src="product.mk" dest="vendor/extra/product.mk" />
+    </project>
+
+    <project name="android_vendor_partner_gms" path="vendor/partner_gms" remote="lineageos4microg" revision="master" />
+</manifest>

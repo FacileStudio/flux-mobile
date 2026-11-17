@@ -1,0 +1,6 @@
+android_app_import {
+    name: "FluxLauncher",
+    apk: "FluxLauncher.apk",
+    presigned: true,
+    product_specific: true,
+}

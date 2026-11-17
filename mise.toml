@@ -1,0 +1,3 @@
+[tasks.fetch]
+description = "Download the Flux launcher APK into prebuilt/"
+run = "sh scripts/fetch-prebuilts.sh"

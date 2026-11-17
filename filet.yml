@@ -1,0 +1,10 @@
+ignore: [.git]
+
+extensions: [.sh]
+
+style:
+  banInlineComments: true
+  banTODO: true
+  banTrailingSpace: true
+
+failOn: error
